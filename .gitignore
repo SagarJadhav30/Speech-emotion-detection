@@ -1,0 +1,6 @@
+/backend/venv/
+/backend/audio_dataset/
+/backend/video_dataset/
+/backend/.venv/
+.venv/
+.DS_Store
