@@ -10,7 +10,7 @@ from scipy.io.wavfile import write
 import traceback
 import os 
 
-app = Flask(__name__)
+app = Flask(__name__) 
 CORS(app)  # Enable CORS for all routes
 
 UPLOAD_FOLDER = 'uploads'
