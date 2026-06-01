@@ -95,7 +95,7 @@ def predict_emotion():
             'Angry': '😠',
             'Fearful': '😨',
             'Disgust': '🤢',
-            'Surprised': '😲'
+            'Surprised': '😲' 
         }
         label_encoder.fit(list(emotions.values()))
         predicted_emotion = label_encoder.inverse_transform(predicted_class)[0]
