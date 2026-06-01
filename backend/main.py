@@ -17,7 +17,7 @@ UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
  
 def extract_feature(data, sr, mfcc, chroma, mel):
-    """
+    """ 
     Extract features from audio files into numpy array
     """
     result = np.array([])
