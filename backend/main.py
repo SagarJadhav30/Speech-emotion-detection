@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 import sounddevice as sd
 from scipy.io.wavfile import write
 import traceback
-import os
+import os 
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
