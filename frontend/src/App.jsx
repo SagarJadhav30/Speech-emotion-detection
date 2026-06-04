@@ -7,7 +7,7 @@ function App() {
   const [predictedEmotion, setPredictedEmotion] = useState('');
   const [mode, setMode] = useState(null); // 'upload' or 'record'
   const [error, setError] = useState('');
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false); 
   const [recordedBlob, setRecordedBlob] = useState(null);
   const [isButtonDisabled, setIsButtonDisabled] = useState(false);
   const mediaRecorderRef = useRef(null);
