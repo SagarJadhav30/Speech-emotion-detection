@@ -17,7 +17,7 @@ function App() {
     setSelectedFile(event.target.files[0]);
     setError('');
   };
-
+ 
   const playBeep = () => {
     const beep = new Audio('/beepsound.wav');
     beep.play();
