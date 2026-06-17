@@ -32,7 +32,7 @@ def extract_feature(data, sr, mfcc, chroma, mel):
         mel_feat = np.mean(librosa.feature.melspectrogram(y=data, sr=sr).T, axis=0)
         result = np.hstack((result, mel_feat))
         
-    return result 
+    return result  
 
 def record_audio(duration=5, fs=22050):
     """
