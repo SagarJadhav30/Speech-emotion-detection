@@ -51,7 +51,7 @@ def predict_emotion(audio_path, model_path='trained_model.h5'):
         '04': 'Sad',
         '05': 'Angry',
         '06': 'Fearful',
-        '07': 'Disgust',
+        '07': 'Disgust', 
         '08': 'Surprised'
     }
     
