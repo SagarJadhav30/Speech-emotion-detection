@@ -176,7 +176,7 @@ def load_data(save=False):
         if emotion == "unknown":
             logging.warning(f"Unknown emotion label for file: {file_name}")
             continue
-        y.append(emotion)
+        y.append(emotion) 
 
         # add noise to the data
         n_data = noise(data, 0.001)
