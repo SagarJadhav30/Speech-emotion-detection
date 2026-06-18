@@ -74,7 +74,7 @@ def extract_feature(data, sr, mfcc, chroma, mel):
     
     if chroma:                          
         stft = np.abs(librosa.stft(data))  
-    result = np.array([])
+    result = np.array([]) 
     if mfcc:                          
         mfccs = np.mean(librosa.feature.mfcc(y=data, sr=sr, n_mfcc=40).T, axis=0)
         result = np.hstack((result, mfccs))
