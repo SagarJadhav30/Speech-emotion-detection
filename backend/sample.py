@@ -88,7 +88,7 @@ def extract_feature(data, sr, mfcc, chroma, mel):
     return result 
 
 def noise(data, noise_factor):
-    
+     
     """
     add random white noises to the audio
 
