@@ -92,7 +92,7 @@ def noise(data, noise_factor):
     """
     add random white noises to the audio
 
-    Parameters
+    Parameters 
     ----------
     data : np.ndarray, audio time series
     noise_factor : float, the measure of noise to be added 
