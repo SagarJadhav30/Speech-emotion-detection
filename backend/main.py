@@ -33,7 +33,7 @@ def extract_feature(data, sr, mfcc, chroma, mel):
         result = np.hstack((result, mel_feat))
         
     return result  
-
+ 
 def record_audio(duration=5, fs=22050):
     """
     Record audio from the microphone.
