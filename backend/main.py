@@ -38,7 +38,7 @@ def record_audio(duration=5, fs=22050):
     """
     Record audio from the microphone.
     
-    Parameters
+    Parameters 
     ----------
     duration : int, duration of recording in seconds
     fs : int, sampling rate
